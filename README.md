@@ -1,2 +1,0 @@
-# cleestofuh.github.io
-portfolio
