@@ -102,7 +102,7 @@ p, div {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: rgba(0, 0, 0, 0);
-    color: #4F4F4F;
+    color: orange;
 }
 
 /* make sidebar nav vertical */
@@ -165,22 +165,22 @@ p, div {
         border-right: 0;
         border-top: 0;
 }
-@media (max-width: 992px) {
+@media (max-width: 978px) {
     body {
         padding-top: 0px;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 978px) {
     #main-wrapper {
       float:right;
     }
 }
-@media (max-width: 992px) {
+@media (max-width: 978px) {
     #main-wrapper {
         padding-top: 0px;
     }
 }
-@media (max-width: 992px) {
+@media (max-width: 978px) {
     #sidebar-wrapper {
         position: static;
         height:auto;
