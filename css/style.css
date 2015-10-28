@@ -5,7 +5,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow-x: hidden;
 }
+
 
 .background {
     -webkit-filter: blur(10px);
@@ -16,8 +18,8 @@ a {
   color: #FFF;
 }
 p, div {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     color: #FFF;
 }
  /* shadows */
@@ -139,7 +141,7 @@ p, div {
 }
 #main-wrapper {
     height: 100%;
-    overflow-y: auto;
+    overflow-y: auto
     padding: 50px 0 0px 0;
 }
 #main {
