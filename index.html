@@ -19,42 +19,46 @@
 
   </head>
   <body data-spy="scroll" data-target="#navi" data-offset="20" id="page-top">
+<!-- LOGO + NAVBAR -->
     <div class="row">
       <div class="col-md-12">
         <div class="col-md-2 col-md-offset-1">
           <div id="sidebar-wrapper">
-          <div class="logo-container">
-            <a class="page-scroll" href="#page-top">
-              <img src="images/ChrisLogo3.png"/>
-            </a>
-          </div>
-              <div class="sidebar-nav vertical-offset-20">
-                <nav class="navbar navbar-default" role="navigation" id="navi">
-                  <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
-                      <span class="sr-only">Christopher Lo</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <span class="visible-xs navbar-brand">Christopher Lo</span>
-                  </div>
-                  <div class="navbar-collapse collapse sidebar-navbar-collapse">
-                    <ul class="nav navbar-nav">
-                      <li><a class="page-scroll" href="#about">About Me</a></li>
-                      <li><a class="page-scroll" href="#experience">Experience</a></li>
-                      <li><a class="page-scroll" href="#work">Work</a></li>
-                      <li><a class="page-scroll" href="#contact">Contact</a></li>
-                      <li><a href="ChrisResumeOct2015.pdf">Download Resume</a></li>
-                    </ul>
-                  </div><!--nav-collapse -->
-                </nav>
+            <div class="logo-container">
+              <a class="page-scroll" href="#page-top">
+                <img src="images/ChrisLogo3.png" onmouseover="this.src='images/ChrisLogoHover.png'" onmouseout="this.src='images/ChrisLogo3.png'"/>
+              </a>
+            </div>
+                <div class="sidebar-nav vertical-offset-20">
+                  <nav class="navbar navbar-default box-shadow--4dp" role="navigation" id="navi">
+                    <div class="navbar-header page-scroll">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                        <span class="sr-only">Christopher Lo</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <span class="visible-xs navbar-brand">Christopher Lo</span>
+                    </div>
+                    <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                      <ul class="nav navbar-nav">
+                        <li><a class="page-scroll" href="#about">About Me</a></li>
+                        <li><a class="page-scroll" href="#experience">Experience</a></li>
+                        <li><a class="page-scroll" href="#work">Work</a></li>
+                        <li><a class="page-scroll" href="#contact">Contact</a></li>
+                        <li><a href="ChrisResumeOct2015.pdf">Download Resume</a></li>
+                      </ul>
+                    </div><!--nav-collapse -->
+                  </nav>
+                </div>
               </div>
             </div>
-            </div>
+<!-- INFORMATION -->
         <div class="col-md-4 vertical-offset-15">
-          <div class="panel panel-default">
-            <div class="panel-heading" id="about">
+          <div class="panel panel-default box-shadow--4dp">
+<!-- ABOUT ME -->
+          <section id="about">
+            <div class="panel-heading">
               About Me
             </div>
             <div class="panel-body">
@@ -66,9 +70,11 @@
                 <p>My passion is to create aesthetically pleasing applications and web pages that are designed around user interaction and user experience.
                   In my free time, I enjoy playing games, binge watching Netflix, dancing, and the making dumbest jokes you can think of.
                   I once farted in an elevator, which was wrong on so many levels.</p>
-
             </div>
-            <div class="panel-heading" id="experience">
+          </section>
+<!-- EXPERIENCE -->
+          <section id="experience">
+            <div class="panel-heading">
               Experience
             </div>
             <div class="panel-body">
@@ -96,7 +102,10 @@
                   Worked with teacher and a class to introduce students into programming.</p>
               </article>
             </div>
-            <div class="panel-heading" id="work">
+          </section>
+<!-- WORK -->
+          <section id = "work">
+            <div class="panel-heading">
               Work
             </div>
             <div class="panel-body">
@@ -106,7 +115,7 @@
               <p> Role: Frontend/Backend Developer, UI/UX Designer </p>
               <div class="project">
                 <a href="#">
-                  <img src="images/item-1.jpg" alt="img01"/>
+                  <img src="images/StudyBuddies/item-1.jpg" alt="img01"/>
                 </a>
               </div>
               <h2>Telecommunications Application</h2>
@@ -118,6 +127,9 @@
                 </a>
               </div>
             </div>
+          </section>
+<!-- CONTACT -->
+          <section id="contact">
             <div class="panel-heading" id="contact">
               Contact
             </div>
@@ -129,20 +141,22 @@
                 <p>Skype: cleestofuh</p>
               </div>
             </div>
+          </section>
           </div>
         </div>
       </div>
     </div>
-
+<!-- FOOTER -->
     <footer id="footer">
   			<div class="row">
   				<div class="col-md-12 col-md-offset-10">
             <p>
-              &copy; 2015 Christopher Lo | <a href="#about">Home</a>
+              &copy; 2015 Christopher Lo | <a class="page-scroll" href="#page-top">Home</a>
   					</p>
   				</div>
   			</div><!-- .row -->
   	</footer>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
