@@ -46,6 +46,7 @@ p, div {
 .project {
     width: 35%;
     height: 35%;
+    padding-bottom: 20px;
     display: inline-block;
 }
 
