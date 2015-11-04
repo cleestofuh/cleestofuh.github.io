@@ -18,15 +18,24 @@ a {
   color: #FFF;
 }
 p, div {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #FFF;
 }
 
+h2 {
+  font-size: 20px;
+}
+
+h5 {
+font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
 .mod-text {
   color: #000;
   margin: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
@@ -44,7 +53,7 @@ p, div {
 .self-image img {
     width: 100%;
     border: 10px solid #FFF;
-    border-radius: 200px;
+    border-radius: 50%;
 }
 
 .center {
@@ -63,12 +72,11 @@ p, div {
 }
 
 .logo-container {
-    width: 250px;
-    height: 250px;
+    width: 75%;
+    height: 75%;
 }
 
 .logo-container img {
-    padding-top: 20px;
     width: 100%;
     height: auto;
 }
@@ -78,6 +86,9 @@ p, div {
   padding-left: 50px;
 }
 
+.hor-offset-5 {
+  padding-left: 5%;
+}
 .vertical-offset-15 {
     padding-top: 1%;
 }
@@ -98,7 +109,7 @@ p, div {
 
 /* navbar */
 .vertical-offset-20 {
-    padding-top: 35%;
+    padding-top: 15%;
 }
 
 .left-nav-offset-100 {
@@ -119,10 +130,11 @@ p, div {
 }
 
 /* make sidebar nav vertical */
-@media (min-width: 978px) {
+@media (min-width: 975px) {
   .sidebar-nav .navbar {
     padding: 0;
     max-height: none;
+    margin-right: 20%;
   }
   .sidebar-nav .navbar ul {
     float: none;
@@ -168,14 +180,15 @@ p, div {
     height: 100%;
     padding: 50px 0 0px 0;
     position: fixed;
+    margin-right: 5%;
 }
 
-@media (max-width: 978px) {
+@media (max-width: 975px) {
     body {
         padding-top: 0px;
     }
 }
-@media (max-width: 978px) {
+@media (max-width: 975px) {
     #sidebar-wrapper {
         position: static;
         height:auto;
@@ -210,14 +223,14 @@ p, div {
 
 .ih-item.circle {
   position: relative;
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
 }
 .ih-item.circle .img {
   position: relative;
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
 }
 .ih-item.circle .img:before {
@@ -304,9 +317,9 @@ p, div {
   padding: 5px;
 }
 .ih-item.circle.effect10.top_to_bottom a:hover .img {
-  -webkit-transform: translateY(50px) scale(0.5);
-  -moz-transform: translateY(50px) scale(0.5);
-  -ms-transform: translateY(50px) scale(0.5);
-  -o-transform: translateY(50px) scale(0.5);
-  transform: translateY(50px) scale(0.5);
+  -webkit-transform: translateY(50px) scale(0.4);
+  -moz-transform: translateY(50px) scale(0.4);
+  -ms-transform: translateY(50px) scale(0.4);
+  -o-transform: translateY(50px) scale(0.4);
+  transform: translateY(50px) scale(0.4);
 }
