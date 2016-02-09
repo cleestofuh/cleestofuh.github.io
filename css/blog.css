@@ -131,8 +131,9 @@ h3 {
 
 .post-images {
     margin: 1em 0;
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
 }
 
 .footer {
@@ -193,6 +194,7 @@ h3 {
         position: fixed;
         top: 0;
         bottom: 0;
+            border-top-right-radius: 50px;
     }
 }
 @media (max-width: 1280px) {
