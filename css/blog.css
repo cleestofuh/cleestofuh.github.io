@@ -289,6 +289,9 @@ div.img-wrap:hover .img-text {
   height: 50px;
   margin: 0 6px;
   cursor: pointer;
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .media-icon:hover path {
