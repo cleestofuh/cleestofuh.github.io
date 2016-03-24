@@ -179,16 +179,16 @@ span .pure-button:focus {
 
 .img-text {
   position: absolute;
-  left: 0;
-  top: 30%;
   width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
   text-align: center;
   color: white;
   opacity: 0;
   font-weight: 300;
   font-size: 3em 1em 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 div.img-wrap {
@@ -346,9 +346,6 @@ div.img-wrap:hover .img-text {
   .header {
     margin-top: 30%;
   }
-  .img-text {
-    top: 10%;
-  }
   .grape-img {
       height: auto;
       width: 75%;
@@ -358,9 +355,6 @@ div.img-wrap:hover .img-text {
 @media (max-width: 48em) {
   span .pure-button {
     display: none;
-  }
-  .img-text {
-    top: 20%;
   }
   .margin5 {
     margin-top: 0;
@@ -374,9 +368,6 @@ div.img-wrap:hover .img-text {
 @media (max-width: 35.5em) {
   span .pure-button {
     display: none;
-  }
-  .img-text {
-    top: 10%;
   }
   .margin5 {
     margin-top: 0;
