@@ -109,3 +109,9 @@ footer {
   -moz-transition-property: -moz-transform, opacity;
   transition-property: transform, opacity;
 }
+
+#me {
+    -webkit-box-shadow: 3px 5px 8px 3px rgba(0,0,0,0.16),3px 5px 13px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 3px 5px 8px 3px rgba(0,0,0,0.16),3px 5px 13px 3px rgba(0,0,0,0.12);
+    box-shadow: 3px 5px 8px 3px rgba(0,0,0,0.16),3px 5px 13px 3px rgba(0,0,0,0.12);
+}
