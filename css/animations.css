@@ -1,0 +1,97 @@
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+#name {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+#projects-head {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+#prch {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+#brewngo {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+#suhdude {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+#grape {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+#studybud {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+#kf {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+#banana {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+#christmas {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
