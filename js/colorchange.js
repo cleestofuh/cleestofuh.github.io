@@ -2,7 +2,7 @@ $(document).ready(function(){
     $("#logo").hover(function(){
         $(".st1").css("fill", "#444444");
         }, function(){
-        $(".st1").css("fill", "#ffffff");
+        $(".st1").css("fill", "#fcfcfc");
     });
     $("#grape").hover(function(){
         $(".st0").css("stroke", "#c399d1");
@@ -11,7 +11,7 @@ $(document).ready(function(){
         }, function(){
         $(".st0").css("stroke", "#444444");
         $(".st1").css("stroke", "#444444");
-        $(".st1").css("fill", "#ffffff");
+        $(".st1").css("fill", "#fcfcfc");
     });
     $("#prch").hover(function(){
         $(".st0").css("stroke", "#39b54a");
@@ -20,7 +20,7 @@ $(document).ready(function(){
         }, function(){
         $(".st0").css("stroke", "#444444");
         $(".st1").css("stroke", "#444444");
-        $(".st1").css("fill", "#ffffff");
+        $(".st1").css("fill", "#fcfcfc");
     });
     $("#studybud").hover(function(){
         $(".st0").css("stroke", "#1F618D");
@@ -29,7 +29,7 @@ $(document).ready(function(){
         }, function(){
         $(".st0").css("stroke", "#444444");
         $(".st1").css("stroke", "#444444");
-        $(".st1").css("fill", "#ffffff");
+        $(".st1").css("fill", "#fcfcfc");
     });
     $("#suhdude").hover(function(){
         $(".st0").css("stroke", "#4d62a7");
@@ -38,7 +38,7 @@ $(document).ready(function(){
         }, function(){
         $(".st0").css("stroke", "#444444");
         $(".st1").css("stroke", "#444444");
-        $(".st1").css("fill", "#ffffff");
+        $(".st1").css("fill", "#fcfcfc");
     });
     $("#brewngo").hover(function(){
         $(".st0").css("stroke", "#444444");
@@ -47,7 +47,7 @@ $(document).ready(function(){
         }, function(){
         $(".st0").css("stroke", "#444444");
         $(".st1").css("stroke", "#444444");
-        $(".st1").css("fill", "#ffffff");
+        $(".st1").css("fill", "#fcfcfc");
     });
     $("#kf").hover(function(){
         $(".st0").css("stroke", "#f48516");
@@ -56,7 +56,7 @@ $(document).ready(function(){
         }, function(){
         $(".st0").css("stroke", "#444444");
         $(".st1").css("stroke", "#444444");
-        $(".st1").css("fill", "#ffffff");
+        $(".st1").css("fill", "#fcfcfc");
     });
     $("#banana").hover(function(){
         $(".st0").css("stroke", "#e9d52c");
@@ -65,7 +65,7 @@ $(document).ready(function(){
         }, function(){
         $(".st0").css("stroke", "#444444");
         $(".st1").css("stroke", "#444444");
-        $(".st1").css("fill", "#ffffff");
+        $(".st1").css("fill", "#fcfcfc");
     });
     $("#christmas").hover(function(){
         $(".st0").css("stroke", "#d44644");
@@ -74,6 +74,6 @@ $(document).ready(function(){
         }, function(){
         $(".st0").css("stroke", "#444444");
         $(".st1").css("stroke", "#444444");
-        $(".st1").css("fill", "#ffffff");
+        $(".st1").css("fill", "#fcfcfc");
     });
 });
