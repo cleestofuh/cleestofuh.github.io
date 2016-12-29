@@ -1,9 +1,4 @@
-.preload * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-}
+
 body {
     background: #fcfcfc;
 }
@@ -46,7 +41,7 @@ footer {
    stroke: #444;
    stroke-width: 3;
 }
-.st0 {
+/*.st0 {
    stroke-dasharray: 1200;
    stroke-dashoffset: 0;
    -webkit-animation: dash 4s linear forwards;
@@ -61,18 +56,18 @@ footer {
    -o-animation: dash 4s linear forwards;
    -moz-animation: dash 4s linear forwards;
    animation: dash 4s linear forwards;
-}
+}*/
 #logo, .st0, .st1 {
    transition: .5s;
 }
-@-webkit-keyframes dash {
+/*@-webkit-keyframes dash {
    from {
        stroke-dashoffset: 1200;
    }
    to {
        stroke-dashoffset: 0;
    }
-}
+}*/
 /* card */
 .card {
     -webkit-transition: transform 0.5s, box-shadow 0.5s; /* For Safari 3.1 to 6.0 */
