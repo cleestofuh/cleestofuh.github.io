@@ -63,35 +63,35 @@
     animation-duration: 3s;
 }
 
-#prch {
+#brewngo {
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
 }
-#brewngo {
+#prch {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
-#suhdude {
+#clickndig {
     -webkit-animation-delay: 1.5s;
     animation-delay: 1.5s;
+}
+#suhdude {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
 }
 #grape {
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
 #studybud {
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-}
-#kf {
     -webkit-animation-delay: 1.5s;
     animation-delay: 1.5s;
 }
-#banana {
+#kf {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
-#christmas {
+#banana {
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
 }

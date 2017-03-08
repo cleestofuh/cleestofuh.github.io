@@ -110,3 +110,8 @@ footer {
   -moz-transition-property: -moz-transform, opacity;
   transition-property: transform, opacity;
 }
+
+/* styling */
+.text-center {
+    text-align: center;
+}

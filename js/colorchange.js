@@ -67,10 +67,10 @@ $(document).ready(function(){
         $(".st1").css("stroke", "#444444");
         $(".st1").css("fill", "#fcfcfc");
     });
-    $("#christmas").hover(function(){
-        $(".st0").css("stroke", "#d44644");
-        $(".st1").css("stroke", "#d44644");
-        $(".st1").css("fill", "#d44644");
+    $("#clickndig").hover(function(){
+        $(".st0").css("stroke", "#F67164");
+        $(".st1").css("stroke", "#F67164");
+        $(".st1").css("fill", "#F67164");
         }, function(){
         $(".st0").css("stroke", "#444444");
         $(".st1").css("stroke", "#444444");
