@@ -5,9 +5,9 @@ body {
 	height: 90vh;
 	background: linear-gradient(-225deg, #96deda, #50c9c3, #ff758c, #ff7eb3, #48c6ef, #6f86d6);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 18s ease infinite;
-	-moz-animation: Gradient 18s ease infinite;
-	animation: Gradient 18s ease infinite;
+	-webkit-animation: Gradient 60s ease infinite;
+	-moz-animation: Gradient 60s ease infinite;
+	animation: Gradient 60s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -70,4 +70,10 @@ a {
 	height: auto;
 }
 
-
+.footer {
+	width: 100%; 
+	bottom: 0; 
+	position: absolute; 
+	height: 40px;
+	text-align: center;
+}

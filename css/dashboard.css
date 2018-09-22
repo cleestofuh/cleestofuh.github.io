@@ -21,12 +21,14 @@ hr {
 
 .navbar {
     padding-top: 20px;
+    padding-bottom: 20px;
     background: #fff;
     border: none;
     border-radius: .25em;
     margin-bottom: 40px;
     background: #fafafa;
     box-shadow: 12px 12px 0px 1px rgba(255, 0, 0, .2);  
+    justify-content: space-between;
 }
 
 .line {
@@ -74,7 +76,7 @@ hr {
 }
 
 #sidebar .sidebar-header {
-    padding: 45px 0px 45px 0px;
+    padding: 45px 0px 45px 20px;
     background: linear-gradient(-225deg, #48c6ef, #6f86d6);
     border-top-right-radius: .25rem;
     border-top-left-radius: .25rem;
@@ -107,7 +109,6 @@ hr {
 #sidebarCollapse {
 	background: #007bff;
 	color: #fff;
-	margin-bottom: 15px;
 }
 
 .dropdown-toggle::after {
@@ -118,7 +119,9 @@ hr {
     transform: translateY(-50%);
 }
 
-
+.fa-fw {
+	margin-right: 10px;
+}
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
@@ -146,10 +149,16 @@ hr {
     box-shadow: 12px 12px 0px 1px rgba(0, 255, 0, .2);  
 }
 
-.card {
-	width: 85%;
+#appleAlarm {
+	background: #1c1c1c;
+	color: #fff;
+    box-shadow: 12px 12px 0px 1px rgba(255, 0, 255, .2);  
+    height: 350px;
+}
+
+#appleAlarm a {
+	background: #FC9400;
 	border: none;
-	box-shadow: 12px 12px 0px 1px rgba(255, 0, 255, .2); 
 }
 /* ---------------------------------------------------
     MEDIAQUERIES
@@ -170,14 +179,12 @@ hr {
         display: none;
     }
 
+    .email-text.active {
+    	display: none;
+    }
+
 	.content-container {
 	    padding: 20px 35px 20px 15px;
 	}
-
-	.card {
-		width: 100%;
-		margin-bottom: 30px;
-	}
-
 
 }
