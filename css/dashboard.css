@@ -167,8 +167,10 @@ hr {
 }
 
 #grape {
-	background: #bfa6cc;
-	border: 12px solid #9065A3;
+	background: #BFA6CC;
+	background: #BFA6CC no-repeat url('../img/grape-img.png');
+	background-position: center right;
+	background-size: auto 350px;
 }
 
 /* ---------------------------------------------------
