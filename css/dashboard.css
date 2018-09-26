@@ -158,6 +158,10 @@ hr {
 	height: 350px;
 }
 
+.jumbotron .lead, .display-5 {
+	text-shadow: 1px 1px #000;
+}
+
 #clickndig {
 	background-color: #6D91AD;
 	background: #6D91AD no-repeat url('../img/clickndig-img.png');
@@ -171,6 +175,13 @@ hr {
 	background: #BFA6CC no-repeat url('../img/grape-img.png');
 	background-position: center right;
 	background-size: auto 350px;
+}
+
+#me {
+	background: no-repeat url('../img/me.png');
+	background-position: center;
+	background-size: 100% auto;
+	height: 500px;
 }
 
 /* ---------------------------------------------------
@@ -198,6 +209,23 @@ hr {
 
 	.content-container {
 	    padding: 20px 35px 20px 15px;
+	}
+
+	#clickndig {
+		background-color: #6D91AD;
+		background: #6D91AD no-repeat url('../img/clickndig-img.png');
+		background-position: right bottom;
+		background-size: 250px auto;
+		height: 500px;
+
+	}
+
+	#grape {
+		background: #BFA6CC;
+		background: #BFA6CC no-repeat url('../img/grape-img.png');
+		background-position: right bottom;
+		background-size: 250px auto;
+		height: 500px;
 	}
 
 }
