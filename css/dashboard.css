@@ -31,7 +31,7 @@ hr {
     justify-content: space-between;
 }
 
-.email-text {
+.email-text a {
 	font-weight: 500;
 }
 
