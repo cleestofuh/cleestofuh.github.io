@@ -16,28 +16,155 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Gaegu:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ledger" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
     <title>Christopher Lo</title>
   </head>
-  <body>
-    <div class="text-center home-box">
-      <img class="my-face" src="img/myface.jpeg" alt="my face"/>
-      <h1>Chris Lo</h1>
-      <h5>UI & UX Designer</h5>
-      <p>Hello! 👋 Glad you're here. You can navigate through my portfolio to learn more about my work and experience.</p>
-      <p style="color:#999999;">(currently under construction)</p>
-      <hr>
-      <a class="col-sm" href="mywork.html">My work</a><a class="col-sm" href="ChrisResumeSep2018.pdf" target="_blank">Resume</a><a class="col-sm" href="contact.html">About</a>
-    </div>
-    <div class="footer">
-      <span style="color: #fff; ">Copyright © 2018 Christopher Lo</span>
+  <body data-spy="scroll" data-target="#myNavbar">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        
+            
+            <a class="navbar-brand d-none d-lg-inline-block" href=".">
+                <h1>Christopher Lo</h1>
+            </a>
+            <a class="navbar-brand d-lg-none d-inline-block" href=".">
+                <h1>Chris</h1>
+            </a>
+       
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+      
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item active">
+                    <a href="#work" class="nav-link m-1" id="nav-work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link m-1" id="nav-about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link m-1" id="nav-experience">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link m-1" id="nav-contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+      <section id="opener">
+        <h1 id="opener-header">I am a UI/UX designer passionate about bringing value to the user through small details.</h1>
+        <p id="sub-opener">Currently UI/UX Designer @ Whova.</p>
+      </section>
+
+      <section id="work">
+        <h1 class="section-heading" id="work-heading">Work</h1>
+        <div class="row work-object">
+          <div class="col-md-auto">
+            <object data="img/clickndig.svg" type="image/svg+xml"></object>
+          </div>
+          <div class="col-md-8 vert-center">
+            <h1>Click n Dig</h1>
+            <p>Redesign of ecommerce website for the Click n Dig item finder. <br>(case study under construction)</p>
+            <a href="https://clickndig-potato.herokuapp.com/"><button type="button" class="work-link">View website →</button></a>
+          </div>
+        </div>
+        <br><br>
+        <div class="row work-object">
+          <div class="col-md-auto">
+            <object data="img/dailyui.svg" type="image/svg+xml"></object>
+          </div>
+          <div class="col-md-8 vert-center">
+            <h1>Daily UI Challenge</h1>
+            <p>When I have free time I like to improve my skills and pick up new tools to try. Updates will be on my Dribbble page as I go.</p>
+            <a href="https://clickndig-potato.herokuapp.com/"><button type="button" class="work-link">View challenges →</button></a>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="about">
+        <div class="about-bg">
+          <div class="row vert-center about-content">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-sm-12 col-lg-3 vert-center">
+              <div class="me">
+                <svg width="188px" height="257px" viewBox="0 0 188 257" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+                    <title>me</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="My-work" transform="translate(-210.000000, -1394.000000)" fill-rule="nonzero">
+                            <g id="Group-5" transform="translate(213.000000, 1394.000000)">
+                                <g id="me">
+                                    <path d="M89.8796562,183.925397 C54.2806096,183.925397 36.1929445,206.111453 35.1180109,251.844434 C35.1177077,251.859914 35.1177077,251.859914 35.1176471,251.875397 C35.1176471,252.596113 35.6945357,253.175378 36.3999817,253.175378 L143.359313,253.175397 C143.374297,253.175338 143.374297,253.175338 143.389277,253.175042 C144.09476,253.158323 144.658233,252.565179 144.641302,251.844465 C143.566376,206.111463 125.478711,183.925397 89.8796562,183.925397 Z" id="Mask" stroke="#333333" stroke-width="6" fill="#FFFFFF"></path>
+                                    <path d="M101.101028,216.251445 C100.853855,216.251445 100.64378,216.432041 100.60669,216.676431 C98.3330037,231.655835 101.920439,238.604046 111.335827,238.604046 C120.75122,238.604046 124.338655,231.655827 122.064961,216.676407 C122.027867,216.432028 121.817778,216.251422 121.570601,216.251422 L101.10103,216.251445 Z" id="Rectangle" stroke="#333333" stroke-width="3"></path>
+                                    <path d="M41.3068351,23.5476741 L41.4870573,23.6211871 C42.4765466,24.024802 42.9528345,25.1574417 42.5508761,26.1510086 C42.2224883,26.9627224 41.3934385,27.4530826 40.5272057,27.3479541 L18.8684953,24.7193915 C17.7850724,24.5879043 17.0129387,23.5994057 17.1438864,22.5115182 C17.2395881,21.716447 17.8019266,21.0570981 18.5695937,20.8398587 L24.5416002,19.149862 C26.8313774,18.5018862 29.2708681,18.6381767 31.474924,19.5372159 L32.262828,19.8586037 L23.6806491,8.40102496 C22.9698403,7.45206455 23.1597432,6.10418119 24.1048091,5.39044321 C24.7095207,4.93374949 25.5093833,4.8314451 26.2088029,5.12133723 L28.609461,6.1163506 C33.8962251,8.30758349 37.9404758,12.7436716 39.6482753,18.2246879 L41.3068351,23.5476741 Z" id="hair2" fill="#333333"></path>
+                                    <g id="head">
+                                        <path d="M93.1411765,35.0586705 C141.046502,35.0586705 163.986455,62.0903317 169.101235,98.1041695 C170.120384,97.6539952 171.219201,97.4086705 172.364706,97.4086705 C177.686132,97.4086705 182,102.702903 182,109.233671 C182,115.764438 177.686132,121.058671 172.364706,121.058671 C171.653979,121.058671 170.961224,120.964231 170.29432,120.78502 C171.157265,161.83291 178.264669,194.158671 93.1411765,194.158671 C8.1203628,194.158671 10.6020398,161.910847 11.0421632,120.933522 C10.5829287,121.015975 10.1131742,121.058671 9.63529412,121.058671 C4.31386812,121.058671 0,115.764438 0,109.233671 C0,102.702903 4.31386812,97.4086705 9.63529412,97.4086705 C10.6186576,97.4086705 11.5676145,97.5894608 12.4613006,97.9254357 C18.6072148,62.0009315 45.3151335,35.0586705 93.1411765,35.0586705 Z" id="Path" stroke="#333333" stroke-width="6" fill="#FFFFFF" stroke-linejoin="round"></path>
+                                        <g id="glasses" transform="translate(29.000000, 88.000000)" stroke="#333333" stroke-width="3">
+                                            <path d="M101.611765,52.4086705 C115.802234,52.4086705 127.305882,40.8576171 127.305882,26.6086705 C127.305882,12.359724 124.988897,0.80867052 101.611765,0.80867052 C78.2346319,0.80867052 75.9176471,12.359724 75.9176471,26.6086705 C75.9176471,40.8576171 87.4212954,52.4086705 101.611765,52.4086705 Z" id="Oval"></path>
+                                            <path d="M26.6705882,52.4086705 C40.8610576,52.4086705 52.3647059,40.8576171 52.3647059,26.6086705 C52.3647059,12.359724 50.047721,0.80867052 26.6705882,0.80867052 C3.29345545,0.80867052 0.976470588,12.359724 0.976470588,26.6086705 C0.976470588,40.8576171 12.4801189,52.4086705 26.6705882,52.4086705 Z" id="Oval"></path>
+                                            <path d="M52.3647059,17.84908 C56.2901961,15.088807 60.2156863,13.7086705 64.1411765,13.7086705 C68.0666667,13.7086705 71.9921569,15.088807 75.9176471,17.84908" id="Line" stroke-linecap="round"></path>
+                                        </g>
+                                        <ellipse class="eye" id="eye1" fill="#333333" cx="138.105882" cy="113.533671" rx="5.35294118" ry="5.375"></ellipse>
+                                        <ellipse class="eye" id="eye2" fill="#333333" cx="58.8823529" cy="113.533671" rx="5.35294118" ry="5.375"></ellipse>
+                                        <path d="M57.8117647,169.253595 C63.6246573,170.283819 59.4677435,172.518478 76.6507852,172.518478 C93.833827,172.518478 91.9109009,170.103862 92.8723639,168.358671" id="Path" stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M29.7229869,75.2601067 C42.0418113,72.5740729 55.5472644,65.5126123 70.2348484,61.6921851 C88.272313,67.7643879 139.528098,75.6022013 151.573454,82.16908 C171.917277,93.2601116 160.005824,91.1055708 169.413068,97.2597192 C178.820313,103.413868 175.653141,42.6952155 165.734996,27.542912 C155.816851,12.3906086 130.203395,2.47177983 89.0635727,0.299905434 C61.6370245,-1.14801083 44.5758133,5.90783433 37.8799389,21.4674409 C24.2080644,27.8063681 15.1368599,35.1237874 10.6663255,43.4196989 C3.96052379,55.8635661 -1.35603696,106.619115 11.6775591,93.8570655 C24.7111551,81.0950163 11.9827854,79.1282341 29.7229869,75.2601067 Z" id="Path-2" fill="#333333"></path>
+                                        <path d="M87.7882353,137.084568 C95.1996213,140.016504 99.9512352,138.974538 102.043077,133.958671" id="Path-3" stroke="#333333" stroke-width="3" stroke-linecap="round"></path>
+                                        <g id="eyebrows" transform="translate(40.000000, 75.000000)" stroke="#333333" stroke-linecap="round" stroke-width="3">
+                                            <path d="M0.682352941,5.40175108 C12.4619175,-0.589023001 23.2485323,-0.589023001 33.0421973,5.40175108" id="Path-4"></path>
+                                            <path d="M73.4823529,5.40175108 C85.2619175,-0.589023001 96.0485323,-0.589023001 105.842197,5.40175108" id="Path-4-Copy"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+              </div>
+
+            </div>
+            <div class="col-lg-7">
+              <h1 class="section-heading" id="about-heading">About</h1>
+              <p>Hi I’m Chris.</p>
+
+              <p>When I'm not designing or coding things, I spend my time making dead-pan dad jokes to my friends. I'm not sure if they like them most of the time, but at least 1 person will laugh (hint: I will laugh). I will also pretty much have <b>The Office</b> playing 24/7 so I can pretend I'm friends with Dwight, but don't worry. I skip Scott's Tots every time. If I could solve one world problem it would be figuring out how to drink <b>coffee</b> at night without having to switch to decaf. </p>
+            </div>
+            <div class="col-lg-2">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume">
+        <div class="resume-btn-container">
+          <a href="ChrisResume.pdf" target="_blank"><button type="button" class="btn">Download Resume →</button></a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1 class="section-heading" id="contact-heading">Contact</h1>
+        <p>Feel free to drop me a message at <a class="email" href="mailto:chrisedlo@gmail.com?Subject=Hi%20Chris!" target="_top">chrisedlo@gmail.com</a>. Let's chat over some coffee.</p>
+        <object style="margin-top: 5px;" data="img/coffee.svg" type="image/svg+xml"></object>
+      </section>
     </div>
 
-    <!-- Optional JavaScript -->
-    <script src="js/portfolio.js"></script>
+
+    <div class="footer">
+      <span>Copyright © 2018 Christopher Lo</span>
+    </div>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+    <script src="js/portfolio.js"></script>
   </body>
 </html>
