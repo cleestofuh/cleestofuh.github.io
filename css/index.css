@@ -149,7 +149,7 @@ li > .active {
 
 @media screen and (max-width: 1024px) {
 	#opener {
-		margin-top: 20px;
+		margin-top: 50px;
 	}
 	#opener-header {
 		background: none;
@@ -285,6 +285,8 @@ object {
 	color: #2B9AFF;
 	text-decoration: underline;
 	transition: text-shadow 0.5s ease-in;
+	position: relative;
+	z-index: 1;
 }
 
 .email:hover {
