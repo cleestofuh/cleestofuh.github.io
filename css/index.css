@@ -288,10 +288,14 @@ object {
 	margin-top: -100px;
 }
 
+@keyframes fadeInOut {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
 #steam {
-  animation-duration: 6s;
-  animation-delay: 6s;
-  animation-iteration-count: infinite;
+    animation: fadeInOut 5s infinite;
 }
 
 @media screen and (max-width: 1024px) {
