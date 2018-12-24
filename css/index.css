@@ -1,7 +1,7 @@
 /* home */
 ::selection {
-	color: #000;
-	background: #5EFFAE;
+	color: #fff;
+	background: #000;
 }
 
 body {
@@ -143,6 +143,17 @@ li > .active {
 	font-size: 42px;
 }
 
+.delight {
+	transition: background 0.2s ease-in;
+	transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	display: inline-block;
+}
+
+.delight:hover {
+	background: yellow;
+	transform: translateY(-4px);
+}
+
 #sub-opener {
 	
 }
@@ -281,12 +292,14 @@ object {
 	text-shadow: 2px 2px #2B9AFF;
 }
 
+.contact-info {
+	position: relative;
+	z-index: 1;
+}
 .email {
 	color: #2B9AFF;
 	text-decoration: underline;
 	transition: text-shadow 0.5s ease-in;
-	position: relative;
-	z-index: 1;
 }
 
 .email:hover {
