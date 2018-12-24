@@ -42,11 +42,11 @@ button {
 /* NAVBAR ******************************************************/
 
 .navbar {
-	background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,0));
+	background-color: white;
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: rgba(0,0,0,0.68);
+	color: rgba(0,0,0,0.28);
 }
 
 .navbar-light .navbar-toggler {
@@ -98,12 +98,17 @@ button {
     background-position: 0 75%;
 
 }
-#nav-work:hover, #nav-about:hover, #nav-experience:hover, #nav-contact:hover,
-.active > #nav-work, .active > #nav-about, .active > #nav-experience, .active > #nav-contact {
+#nav-work:hover, #nav-about:hover, #nav-experience:hover, #nav-contact:hover {
 	background-size: 100% 0.90em;
 	transform: rotate(2deg);
 	color: #000;
-	    transition: background-size 0.2s ease-in;
+	transition: background-size 0.2s ease-in;
+}
+
+li > .active {
+	background-size: 100% 0.90em !important;
+	transform: rotate(2deg);
+	color: #000;
 }
 
 .navbar-toggler {
@@ -115,7 +120,7 @@ button {
 		background: #fff;
 	}
 
-	.active > #nav-work, .active > #nav-about, .active > #nav-experience, .active > #nav-contact {
+	li > .active {
 		transform: none;
 		background-size: 100% 0.90em;
 		background-position: 100% 75%;

@@ -8,12 +8,9 @@ $(".navbar-brand").hover(
 
 $(".navbar-nav .nav-link").on("click", function(){
    $(".navbar-nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
+   console.log($(this));
+   $(this).addClass("active");
    $('.navbar-collapse').collapse('hide');
-});
-
-$(function(){
-    $('.navbar a[href*=#]').click(function() {smoothScroll(this)});
 });
 
 $('.nav-link').click(function() {
@@ -23,19 +20,3 @@ $('.nav-link').click(function() {
       scrollTop: $(sectionTo).offset().top
     }, 600);
 });
-
- $(window).on('scroll', function(event){
-   var scrollPos = $(document).scrollTop();
-   $(".nav li a").each(function () {
-     var currLink = $(this);
-     var refElement = $(currLink.attr("href"));
-
-     if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-       currLink.parent().addClass("active").siblings().removeClass("active"); 
-       return;
-     }
-     else{
-       currLink.parent().removeClass("active");
-     }
-   })
- })
