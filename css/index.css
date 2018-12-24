@@ -183,7 +183,7 @@ object {
 	transition: background 0.2s ease-in, color 0.2s ease-in;
 }
 
-.work-link:hover, .work-link:focus {
+.work-link:hover, .work-link:focus, .work-link:active {
 	background: #000;
 	color: #fff;
 	text-decoration: underline;
@@ -261,7 +261,7 @@ object {
 	transition: background 0.2s ease-in, color 0.2s ease-in;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover, .btn:focus, .btn:active {
 	background: #000;
 	color: #fff;
 	text-decoration: underline;
@@ -282,6 +282,22 @@ object {
 .email:hover {
 	text-shadow: 1px 1px #2B9AFF;
 	color: #000;
+}
+
+.coffee {
+	margin-top: -100px;
+}
+
+#steam {
+  animation-duration: 6s;
+  animation-delay: 6s;
+  animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 1024px) {
+	.coffee {
+		margin-top: -10px;
+	}
 }
 
 .footer {
