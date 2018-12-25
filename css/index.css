@@ -130,12 +130,12 @@ li > .active {
 
 /* OPENER ******************************************************/
 
-#opener {
+.opener {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
 
-#opener-header {
+.opener-header {
 	background-image: url("../img/Rectangle.svg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -154,15 +154,11 @@ li > .active {
 	transform: translateY(-4px);
 }
 
-#sub-opener {
-	
-}
-
 @media screen and (max-width: 1024px) {
-	#opener {
+	.opener {
 		margin-top: 50px;
 	}
-	#opener-header {
+	.opener-header {
 		background: none;
 	}
 
@@ -185,6 +181,11 @@ object {
 	.work-object {
 		display: block;
 		margin: 64px auto 64px auto;
+	}
+
+	#dailyui {
+		display: flex; 
+		flex-flow: column-reverse; 
 	}
 
 }
@@ -338,6 +339,7 @@ object {
   background-color: #333;
   color: #fff;
   display: initial;
+  transition: background 0.2s ease-in-out;
 }
 
 .fa:hover {
