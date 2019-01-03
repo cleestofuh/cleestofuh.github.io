@@ -178,12 +178,8 @@ object {
 }
 
 @media screen and (max-width: 991px) {
-	.work-object {
-		display: block;
-		margin: 64px auto 64px auto;
-	}
 
-	#wwgfbt {
+	#wwgfbt-section {
 		display: flex; 
 		flex-flow: column-reverse; 
 	}
