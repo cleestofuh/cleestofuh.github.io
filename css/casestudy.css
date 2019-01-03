@@ -1,3 +1,6 @@
+.casestudy-header {
+	style="font-weight: 800;
+}
 .opener {
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -16,5 +19,25 @@
 	left: 5%;
 	position: fixed;
 	z-index: 2;
-	
+}
+
+.caption-pic {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.caption {
+	text-align: center;
+	font-size: 13px;
+	font-style: italic;
+	color: #999999;
+}
+
+.casestudy-pic {
+	max-width: 100%;
+	height: auto;
+}
+
+.supporting-text, ul > li {
+	font-size: 17px;
 }
