@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="881px" height="51px" viewBox="0 0 881 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+<svg width="862px" height="51px" viewBox="0 0 862 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
     <title>Rectangle</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="My-work" transform="translate(-244.000000, -174.000000)" fill="#5EFFAE" fill-rule="nonzero">
-            <path d="M247.508015,174 L1121.13866,174 C1122.79551,174 1124.13866,175.343146 1124.13866,177 C1124.13866,177.59441 1123.96208,178.175422 1123.63132,178.669311 L1096.86259,218.641236 C1096.30928,219.467466 1095.38251,219.965833 1094.38813,219.971869 L266.736871,224.995907 C265.528687,225.003241 264.434006,224.285092 263.9596,223.17392 L244.748955,178.177958 C244.098387,176.65417 244.80627,174.891507 246.330058,174.240939 C246.702428,174.081959 247.103127,174 247.508015,174 Z" id="Rectangle"></path>
+        <g id="My-work" transform="translate(-252.000000, -174.000000)" fill="#5EFFAE" fill-rule="nonzero">
+            <path d="M270.696395,174 L1099.09987,174 C1107.25447,174 1113.86507,180.610606 1113.86507,188.765202 C1113.86507,191.69073 1112.996,194.550318 1111.36813,196.981109 C1101.74209,211.355013 1085.61911,220.025099 1068.32002,220.130109 L292.473324,224.839681 C275.672886,224.941664 260.450787,214.955434 253.853931,199.504006 C249.882591,190.20217 254.203811,179.442135 263.505647,175.470795 C265.778753,174.500311 268.224786,174 270.696395,174 Z" id="Rectangle"></path>
         </g>
     </g>
 </svg>

@@ -136,7 +136,7 @@ li > .active {
 }
 
 .opener-header {
-	background-image: url("../img/Rectangle.svg");
+	font-family: 'Roboto Slab', serif;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% auto;
@@ -150,8 +150,12 @@ li > .active {
 }
 
 .delight:hover {
-	background: yellow;
+	background: #FFDF00;
 	transform: translateY(-4px);
+}
+
+.delight > a {
+	color: #333;
 }
 
 @media screen and (max-width: 1024px) {
@@ -175,6 +179,10 @@ object {
 
 #work-heading {
 	text-shadow: 2px 2px #FF7373;
+}
+
+.work-subheading {
+	color: #999;
 }
 
 @media screen and (max-width: 991px) {
