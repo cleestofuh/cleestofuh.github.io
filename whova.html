@@ -40,21 +40,35 @@
         <h3 class="casestudy-header">Overview</h3><br>
         <p>We wanted to design a solution that helps event organizers better manage attendance of their agenda sessions and gives them more confidence in their planning.</p>
         <p>My role was to lead the design of a new feature that would integrate with the event organizer dashboard as well as the app. This case study will focus on the organizer dashboard.</p>
+        <p>Time Frame: 2 weeks</p>
       </section>
 
       <section>
+        <div class="caption-pic">
+          <img src="img/casestudy/whova/organizerflow.png" alt="whova organizer flow" class="casestudy-pic"><br>
+          <span class="caption">Old implementation</span>
+        </div>  
         <h3 class="casestudy-header">The Problem</h3><br>
-        <p>To start off, I spoke to a few of our past customers to understand their needs and pain points during their agenda planning. Based on user interviews, there were 2 main challenges that organizers faced:</p>
-          <ul>
-            <li>
-              Making sure their sessions were not overbooked due to physical room capacities.
-            </li> 
-            <li>
-              They needed a way to gauge interest in each session before the event so they could adjust their agenda accordingly by either swapping rooms or adding more sessions.
-            </li>
-          </ul>
+        <p>To learn more about the problem that Whova's organizers were running into, I spoke to a few of our past customers to understand their needs and pain points during their agenda planning. Based on user interviews, there were 3 main challenges that organizers faced:</p>
+        <ul>
+          <li>
+            Making sure their sessions were not overbooked due to physical room capacities.
+          </li> 
+          <li>
+            They needed a way to gauge interest in each session before the event so they could adjust their agenda accordingly by either swapping rooms or adding more sessions.
+          </li>
+           <li>
+            They wanted to confirm that people that enrolled in the session actually attended.
+          </li>
+        </ul> 
       </section>
 
+      <section>
+        <h3 class="casestudy-header">Persona</h3><br>
+        <div class="caption-pic">
+          <img src="img/casestudy/whova/organizerpersona.png" alt="whova organizer persona" class="casestudy-pic"><br>
+          <span class="caption">Organizer Persona</span>
+        </div> 
       <section>
         <h3 class="casestudy-header">Design Iteration</h3><br>
         <div class="caption-pic">
@@ -62,9 +76,10 @@
           <span class="caption">First design iteration</span>
         </div>        
         <p>After some competetive analysis and brainstorming, I created a prototype to get a sense of how the new feature flow would work. This included adding an "Attendance" tab within the session editor to be able to set a capacity, enable a waitlist, and also enable the ability to check-in attendees.</p><br>
-        <p>When testing the flow, there was one major problem that came up: <strong>Visibility</strong></p><br>
-        <p>For the majority of our users, they upload and edit their event agenda through an excel spreadsheet. This led to a low visibility of the feature to begin with since to use it, they would need to be editing individual session through the dashboard, which is not the method that most users go through.</p>
+        <p>When presenting the flow to stakeholders, there was one major problem that came up: <strong>Visibility</strong></p><br>
+        <p>For the majority of our users, they upload and edit their event agenda through an excel spreadsheet. This led to a low visibility of the feature to begin with since to use it, they would need to be editing individual session through the dashboard, which is not the method that most users go through. This could have been prevented had I done more thorough research of how the agenda setup process went and spent time observing more users go through the process.</p>
         <p>Another insight that was expressed was that in many cases, if the event had a session that needed a capacity set, or a session check-in feature, these would need to be enabled for ALL their sessions. From the current flow, the user would have to tediously go through each session one by one.</p>
+        <p>Lastly, the decision was made to make this feature into a paid add-on.</p>
       </section>
 
       <section>
@@ -73,11 +88,27 @@
           <img src="img/casestudy/whova/designiter2.png" alt="whova design iteration 2" class="casestudy-pic"><br>
           <span class="caption">Initial Release</span>
         </div>        
-        <p>From the feedback, we knew the main issues that we wanted to address for the first release. To address the visisbility issue, we decided to separate this feature into it's own page within the dashboard. This resulted in a more focused experience where the session attendance management is the main task on this page. We also added an option to add all the sessions at once to reduce time needed to set up all of the session capacitites.</p>
+        <p>From the feedback, we knew the main issues that we wanted to address for the first release. To address the visisbility issue, we decided to separate this feature into it's own page within the dashboard. This resulted in a more focused experience where the session attendance management is the main task on this page. This also allowed us to follow the design pattern for other paid add-ons of enabling/disabling the feature for those who choose to purchase it. We also added an option to add all the sessions at once to reduce time needed to set up all of the session capacitites.</p>
       </section>
 
       <section>
         <h3 class="casestudy-header">Next Steps</h3><br>      
+        <p>For this release, we wanted to get the core functionality out for our users in time for upcoming events. In the future, we will be tackling more use cases that require further research and thinking. A few of these include:</p>
+        <ul>
+          <li>
+            Overriding of session capacities for VIP attendees
+          </li> 
+          <li>
+            More options for waitlisted attendees (give priority, move up in the waitlist, etc)
+          </li>
+          <li>
+            Linking our registration system into capped sessions so attendees can sign up for sessions when purchasing their ticket
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3 class="casestudy-header">Takeaways</h3><br>      
         <p>For this release, we wanted to get the core functionality out for our users in time for upcoming events. In the future, we will be tackling more use cases that require further research and thinking. A few of these include:</p>
         <ul>
           <li>
