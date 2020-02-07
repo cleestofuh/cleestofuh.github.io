@@ -62,12 +62,12 @@
         <h3 class="casestudy-header">Whova</h3><br>
         <p>Whova is an event management system where event organizers can manage their agenda, attendees, as well as promote networking within their event. This system includes a mobile event app and a web based dashboard where event organizers can configure and set up their event information on the app.</p>
         <p>Whova provides mobile event solutions to help make event planning easier and to help improve the way attendees navigate through their event.</p>
-        <a href="https://eventtechnologyawards.co.uk/2019/en/page/winners" target="_blank">Winner of the People's Choice Award at the Event Technology Awards 2018 →</a>
+        <a href="https://eventtechnologyawards.co.uk/2019/en/page/winners-2019" target="_blank">Winner of the Best Event App at the Event Technology Awards 2019 →</a>
       </section>
 
       <section class="my-role">
         <h3 class="casestudy-header">Overview</h3><br>
-        <p>We wanted to design a solution that helps event organizers better manage attendance of their agenda sessions and gives them more confidence in their planning.</p>
+        <p>Designing a solution on top of our existing platform to help event organizers better manage attendance of their agenda sessions to give them more confidence in their planning.</p>
         <p>My role was to lead the design of a new feature that would integrate with the event organizer dashboard as well as the app. This case study will focus on the organizer dashboard.</p>
         <p>Time Frame: 2 weeks</p>
       </section>
@@ -90,6 +90,36 @@
             They wanted to confirm that people that enrolled in the session actually attended.
           </li>
         </ul> 
+        <p>In the current state of the agenda session manager, organizers did not have the ability to manage each session on such a granular level. This resulted in the need to use alternative methods (spreadsheets, pen/paper, verbal announcements, etc..) to be able to keep track of each session's attendance.</p>
+      </section>
+
+      <section>
+        <h3 class="casestudy-header">The Goal</h3><br>
+        <p>We wanted to give organizers a sense of confidence when planning their agenda sessions by giving them more control over session attendance while also simplifying the tracking process and workload needed on the day-of of the event.</p>
+        <p>Organizer Goals</p>
+        <ul>
+          <li>
+            No overbooked sessions
+          </li> 
+          <li>
+            Gauge session interest
+          </li>
+           <li>
+            Confirm that attendees actually attended sessions
+          </li>
+        </ul> 
+        <p>Business Goals</p>
+        <ul>
+          <li>
+            Save organizer time
+          </li> 
+          <li>
+            Release feature before high priority/high impact events
+          </li>
+           <li>
+            Bring the data upfront within our dashboard
+          </li>
+        </ul> 
       </section>
 
       <section>
@@ -98,6 +128,27 @@
           <img src="img/casestudy/whova/organizerpersona.png" alt="whova organizer persona" class="casestudy-pic"><br>
           <span class="caption">Organizer Persona</span>
         </div> 
+      </section>
+
+      <section>
+        <h3 class="casestudy-header">Use Cases</h3><br>
+        <p>To get a better understanding of how this feature would help our organizers, I worked with the PM to define a few use cases that we wanted to tackle, taking into account the different types of events and sessions.</p>
+        <ul>
+          <li>
+            For sessions with physical room limitations, be able to set a capacity for those sessions that reflect the room size
+          </li> 
+          <li>
+            For sessions which do not have a location set yet, estimate session attendance ahead of time to make sure that each session will be held in an appropriately sized room
+          </li>
+           <li>
+            For class-like session where there are materials prepared ahead of time, be able to gauge how many people will attend to prepare materials and make sure those who enrolled are present
+          </li>
+          <li>
+            For events that hand provide certificates at the end, keep a record of who attended which session
+          </li>
+        </ul> 
+      </section>
+
       <section>
         <h3 class="casestudy-header">Design Iteration</h3><br>
         <div class="caption-pic">
@@ -107,8 +158,7 @@
         <p>After some competetive analysis and brainstorming, I created a prototype to get a sense of how the new feature flow would work. This included adding an "Attendance" tab within the session editor to be able to set a capacity, enable a waitlist, and also enable the ability to check-in attendees.</p><br>
         <p>When presenting the flow to stakeholders, there was one major problem that came up: <strong>Visibility</strong></p><br>
         <p>For the majority of our users, they upload and edit their event agenda through an excel spreadsheet. This led to a low visibility of the feature to begin with since to use it, they would need to be editing individual session through the dashboard, which is not the method that most users go through. This could have been prevented had I done more thorough research of how the agenda setup process went and spent time observing more users go through the process.</p>
-        <p>Another insight that was expressed was that in many cases, if the event had a session that needed a capacity set, or a session check-in feature, these would need to be enabled for ALL their sessions. From the current flow, the user would have to tediously go through each session one by one.</p>
-        <p>Lastly, the decision was made to make this feature into a paid add-on.</p>
+        <p>In addition to this feedback, there was a <strong>new business requirement added where we decided that this feature was going to become a paid add-on feature</strong>. This would lead the design to shift in direction, as our paid features had an established pattern for enabling and disabling usage.</p>
       </section>
 
       <section>
